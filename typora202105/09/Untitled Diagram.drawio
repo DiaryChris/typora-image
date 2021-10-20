@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T08:52:30.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Kde-vG7ISPQTL7yjvMPW" version="15.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-20T09:18:45.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="t3G6gaXaTbGyxdQJmCfi" version="15.0.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,29 +109,24 @@
         <mxCell id="ONRuZQE7swET93vLInpD-9" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
           <mxGeometry x="310" y="290" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="ONRuZQE7swET93vLInpD-11" target="ONRuZQE7swET93vLInpD-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ONRuZQE7swET93vLInpD-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="ONRuZQE7swET93vLInpD-11" target="ONRuZQE7swET93vLInpD-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-11" value="光线直射" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
+        <mxCell id="ONRuZQE7swET93vLInpD-11" value="光线直射&lt;br&gt;沿用之前循环的厚度" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
           <mxGeometry x="110" y="420" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ONRuZQE7swET93vLInpD-12" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
           <mxGeometry x="180" y="370" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="ONRuZQE7swET93vLInpD-15" target="ONRuZQE7swET93vLInpD-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RhrBo8XbeCfQhB0DiWMy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="ONRuZQE7swET93vLInpD-17" target="RhrBo8XbeCfQhB0DiWMy-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="620" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-15" value="追踪到物体" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="145" y="500" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-16" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="170" y="590" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-17" value="结束并加和着色结果" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="110" y="630" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ONRuZQE7swET93vLInpD-18" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="630" y="410" width="40" height="20" as="geometry" />
+        <mxCell id="ONRuZQE7swET93vLInpD-17" value="根据厚度和不透明度计算透射率" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
+          <mxGeometry x="240" y="510" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-0" target="ONRuZQE7swET93vLInpD-8">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +137,7 @@
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-2" target="RhrBo8XbeCfQhB0DiWMy-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RhrBo8XbeCfQhB0DiWMy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-2" target="RhrBo8XbeCfQhB0DiWMy-13">
+        <mxCell id="RhrBo8XbeCfQhB0DiWMy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-2" target="RhrBo8XbeCfQhB0DiWMy-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-2" value="该平面与着色点是否属于同一物体&lt;br&gt;且该射线是第一条射线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
@@ -151,8 +146,8 @@
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-6" target="RhrBo8XbeCfQhB0DiWMy-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="310" />
-              <mxPoint x="910" y="230" />
+              <mxPoint x="880" y="310" />
+              <mxPoint x="880" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -162,20 +157,17 @@
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-8" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
           <mxGeometry x="620" y="290" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RhrBo8XbeCfQhB0DiWMy-9" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="430" y="520" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrBo8XbeCfQhB0DiWMy-11" value="光线被遮蔽&lt;br&gt;将厚度置为无穷大" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="680" y="420" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RhrBo8XbeCfQhB0DiWMy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-13" target="RhrBo8XbeCfQhB0DiWMy-11">
+        <mxCell id="RhrBo8XbeCfQhB0DiWMy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vnYANRvML-aJSD26h06o-1" source="RhrBo8XbeCfQhB0DiWMy-11" target="ONRuZQE7swET93vLInpD-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RhrBo8XbeCfQhB0DiWMy-13" value="该平面物体为不透明物体" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="360" y="400" width="250" height="80" as="geometry" />
+        <mxCell id="RhrBo8XbeCfQhB0DiWMy-11" value="光线被遮蔽&lt;br&gt;将厚度置为无穷大" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
+          <mxGeometry x="375" y="420" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RhrBo8XbeCfQhB0DiWMy-18" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
-          <mxGeometry x="430" y="370" width="40" height="20" as="geometry" />
+          <mxGeometry x="440" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RhrBo8XbeCfQhB0DiWMy-22" value="计算最终颜色" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="vnYANRvML-aJSD26h06o-1">
+          <mxGeometry x="240" y="580" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
